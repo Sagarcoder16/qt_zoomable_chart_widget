@@ -4,7 +4,7 @@ Wrapper widget around QChartView which provides basic zoom/pan/legend handling s
 
 ## Why?
 
-Because I got rid of configuring the QtCharts widget in each of my applications
+Because I got rid of configuring the QtCharts widget in each of my applications.
 
 ### How to use it?
 
@@ -25,7 +25,7 @@ Add your chart as a QWidget and then promote to the ZoomableChartWidget:
 
 ![Promoting widget](https://raw.githubusercontent.com/martonmiklos/qt_zoomable_chart_widget/master/screenshots/promote_to.png "Promoting widget")
 
-You can access the underlying QtChart object via 
+You can access the underlying QtChart object via :
 
 ```
 ui->whateverIsMyWidgetName->chart()
